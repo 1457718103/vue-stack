@@ -32,6 +32,7 @@ var app = new Vue({
   },
   mounted: function() {
     this.getList()
+    console.log(123123)
   },
   methods: {
     getList: function() {
